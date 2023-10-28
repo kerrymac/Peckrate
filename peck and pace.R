@@ -1,9 +1,9 @@
 rm(list= ls()) # Clear the global environment before we begin
 
-dframe1 <- read.csv(file.choose())    # Select " flockscans juveniles updated 23042023 "
+dframe1 <- read.csv(file.choose())    # Select " Peck and Pace Oct23a "
 
 
-summary(dframe1)
+
 names(dframe1)
 str(dframe1)
 library(glmmTMB)
